@@ -1,0 +1,15 @@
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\Software\Keil_v5\ARM\AC5\Bin'
+Build target 'MyFreeRTOS_F103'
+compiling main.c...
+..\ModuleDrivers\ring_buffer.h(54): warning:  #1-D: last line of file ends without a newline
+  #endif /* __RING_BUFFER_H */
+../Core/Src/main.c(103): warning:  #223-D: function "EnableUART2IRQ" declared implicitly
+    EnableUART2IRQ();
+../Core/Src/main.c(104): warning:  #223-D: function "printf" declared implicitly
+    printf("Hello World!\r\n");
+../Core/Src/main.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=18560 RO-data=388 RW-data=156 ZI-data=10524  
+FromELF: creating hex file...
+"MyFreeRTOS_F103\MyFreeRTOS_F103.axf" - 0 Error(s), 3 Warning(s).
+Build Time Elapsed:  00:00:01
